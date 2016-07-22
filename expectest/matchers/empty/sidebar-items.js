@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["be_empty","Returns a new `BeEmpty` matcher."]],"struct":[["BeEmpty","A matcher for `be_empty` assertions."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["TestResult","Represents result of unit testing."]],"struct":[["Failure","Represents data for `Failure` variant of a `TestResult`."]]});

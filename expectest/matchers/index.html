@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `matchers` mod in crate `expectest`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, matchers">
+
+    <title>expectest::matchers - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>expectest</a></p><script>window.sidebarCurrent = {name: 'matchers', ty: 'mod', relpath: '../'};</script><script defer src="../sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>expectest</a>::<wbr><a class='mod' href=''>matchers</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-185' class='srclink' href='../../src/expectest/matchers/mod.rs.html#2-21' title='goto source code'>[src]</a></span></h1>
+<div class='docblock'><p>A module contains matchers.</p>
+</div><h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeCloseTo.html'
+                                  title='expectest::matchers::BeCloseTo'>BeCloseTo</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_close_to</code> assertions for float numbers.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeEmpty.html'
+                                  title='expectest::matchers::BeEmpty'>BeEmpty</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_empty</code> assertions.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeEqualTo.html'
+                                  title='expectest::matchers::BeEqualTo'>BeEqualTo</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_equal_to</code> assertions for types that conforms to
+<code>PartialEq</code> trait.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeErr.html'
+                                  title='expectest::matchers::BeErr'>BeErr</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_err</code> assertions for <code>Result&lt;T, E&gt;</code> type.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeFalse.html'
+                                  title='expectest::matchers::BeFalse'>BeFalse</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_false</code> assertions.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeNone.html'
+                                  title='expectest::matchers::BeNone'>BeNone</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_none</code> assertions for <code>Option&lt;T&gt;</code> types.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeOk.html'
+                                  title='expectest::matchers::BeOk'>BeOk</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_ok</code> assertions for <code>Result&lt;T, E&gt;</code> type.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeSome.html'
+                                  title='expectest::matchers::BeSome'>BeSome</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_some</code> assertions for <code>Option&lt;T&gt;</code> types.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.BeTrue.html'
+                                  title='expectest::matchers::BeTrue'>BeTrue</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>be_true</code> assertions.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.HaveCount.html'
+                                  title='expectest::matchers::HaveCount'>HaveCount</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for <code>have_count</code> assertions.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.PartialOrder.html'
+                                  title='expectest::matchers::PartialOrder'>PartialOrder</a></td>
+                           <td class='docblock short'>
+                                <p>A matcher for types that conforms to <code>PartialOrd</code> trait.</p>
+                           </td>
+                       </tr></table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_close_to.html'
+                                  title='expectest::matchers::be_close_to'>be_close_to</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeCloseTo</code> matcher with default <code>delta</code> equal to <code>0.001</code>.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_empty.html'
+                                  title='expectest::matchers::be_empty'>be_empty</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeEmpty</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_equal_to.html'
+                                  title='expectest::matchers::be_equal_to'>be_equal_to</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeEqualTo</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_err.html'
+                                  title='expectest::matchers::be_err'>be_err</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeErr</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_false.html'
+                                  title='expectest::matchers::be_false'>be_false</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeFalse</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_greater_or_equal_to.html'
+                                  title='expectest::matchers::be_greater_or_equal_to'>be_greater_or_equal_to</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>PartialOrder</code> (greater or equal to) matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_greater_than.html'
+                                  title='expectest::matchers::be_greater_than'>be_greater_than</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>PartialOrder</code> (greater than) matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_less_or_equal_to.html'
+                                  title='expectest::matchers::be_less_or_equal_to'>be_less_or_equal_to</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>PartialOrder</code> (less or equal to) matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_less_than.html'
+                                  title='expectest::matchers::be_less_than'>be_less_than</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>PartialOrder</code> (less than) matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_none.html'
+                                  title='expectest::matchers::be_none'>be_none</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeNone</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_ok.html'
+                                  title='expectest::matchers::be_ok'>be_ok</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeOk</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_some.html'
+                                  title='expectest::matchers::be_some'>be_some</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeSome</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.be_true.html'
+                                  title='expectest::matchers::be_true'>be_true</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>BeTrue</code> matcher.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.have_count.html'
+                                  title='expectest::matchers::have_count'>have_count</a></td>
+                           <td class='docblock short'>
+                                <p>Returns a new <code>HaveCount</code> matcher.</p>
+                           </td>
+                       </tr></table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "expectest";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

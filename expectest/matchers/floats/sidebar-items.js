@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["be_close_to","Returns a new `BeCloseTo` matcher with default `delta` equal to `0.001`."]],"struct":[["BeCloseTo","A matcher for `be_close_to` assertions for float numbers."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SourceLocation","Represents a location in a source code."]]});

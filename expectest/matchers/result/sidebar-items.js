@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["be_err","Returns a new `BeErr` matcher."],["be_ok","Returns a new `BeOk` matcher."]],"struct":[["BeErr","A matcher for `be_err` assertions for `Result<T, E>` type."],["BeOk","A matcher for `be_ok` assertions for `Result<T, E>` type."]]});

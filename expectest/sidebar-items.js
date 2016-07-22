@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["expect!","A macro intended to use instead of `expect` function."]],"mod":[["core","A module contains core types of this library."],["matchers","A module contains matchers."],["prelude","A module contains reexport of all useful functions."]]});

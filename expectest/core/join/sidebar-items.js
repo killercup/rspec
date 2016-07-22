@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Join","An enum used to join two parts of a failure message."]]});
